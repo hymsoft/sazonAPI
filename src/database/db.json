@@ -1,6 +1,62 @@
 {
   "recetas": [
     {
+      "id": "a8f4e76b-8d49-4a8f-9a63-8d3fd1d8a9ab",
+      "nombre": "Tarta de Choconut con Dulce de Leche",
+      "descripcion_tipo": "Una deliciosa tarta de Choconut con un relleno irresistible de dulce de leche.",
+      "ingredientes": [
+        { "nombre": "masa para tarta", "cantidad": "1 disco" },
+        { "nombre": "choconut", "cantidad": "1 taza" },
+        { "nombre": "dulce de leche", "cantidad": "1/2 taza" },
+        { "nombre": "huevos", "cantidad": "3" },
+        { "nombre": "azúcar", "cantidad": "1/2 taza" },
+        { "nombre": "leche", "cantidad": "1/2 taza" }
+      ],
+      "instrucciones": "Forra un molde con la masa para tarta. Espolvorea el Choconut sobre la masa. En un tazón, mezcla el dulce de leche, huevos, azúcar y leche. Vierte esta mezcla sobre el Choconut y hornea hasta que esté dorada.",
+      "imagen": "https://i.postimg.cc/5NjKJTrb/choconut.jpg",
+      "createdAt": "2023-09-13T11:00:00Z",
+      "updatedAt": "2023-09-13T11:00:00Z",
+      "tiempo_coccion": "45 minutos",
+      "nivel_dificultad": "Intermedio"
+    },
+    {
+      "id": "b7a9068d-f46e-42c5-99e3-56c31ecf5f61",
+      "nombre": "Conitos de Chocolate Rellenos de Dulce de Leche",
+      "descripcion_tipo": "Deliciosos conitos de chocolate rellenos de dulce de leche, una verdadera delicia para los amantes del chocolate.",
+      "ingredientes": [
+        { "nombre": "masa de hojaldre", "cantidad": "1 lámina" },
+        { "nombre": "chocolate negro", "cantidad": "100g" },
+        { "nombre": "dulce de leche", "cantidad": "1/2 taza" },
+        { "nombre": "huevo (para pincelar)", "cantidad": "1" }
+      ],
+      "instrucciones": "Extiende la masa de hojaldre y córtala en triángulos. Derrite el chocolate y pincela los triángulos. Enrolla cada triángulo formando un conito y rellena con dulce de leche. Coloca en una bandeja y pincela con huevo. Hornea hasta que estén dorados.",
+      "imagen": "https://i.postimg.cc/X7hHYxMF/conitos.jpg",
+      "createdAt": "2023-09-13T11:10:00Z",
+      "updatedAt": "2023-09-13T11:10:00Z",
+      "tiempo_coccion": "20 minutos",
+      "nivel_dificultad": "Intermedio"
+    },
+    {
+      "id": "e4f3bcf8-9954-4b32-9ed6-7ee099a4aadd",
+      "nombre": "Pepas Rellenas de Dulce de Leche",
+      "descripcion_tipo": "Deliciosas galletitas argentinas rellenas de suave dulce de leche.",
+      "ingredientes": [
+        { "nombre": "manteca", "cantidad": "150g" },
+        { "nombre": "azúcar", "cantidad": "1 taza" },
+        { "nombre": "huevo", "cantidad": "1" },
+        { "nombre": "esencia de vainilla", "cantidad": "1 cucharadita" },
+        { "nombre": "harina de trigo", "cantidad": "3 tazas" },
+        { "nombre": "polvo de hornear", "cantidad": "1 cucharadita" },
+        { "nombre": "dulce de leche", "cantidad": "250g" }
+      ],
+      "instrucciones": "Mezcla la manteca pomada con el azúcar hasta obtener una crema. Agrega el huevo y la esencia de vainilla. Incorpora la harina tamizada con el polvo de hornear. Forma bolitas y haz un hueco en el centro. Rellena con dulce de leche y hornea hasta que estén doradas.",
+      "imagen": "https://i.postimg.cc/HL16Qxkk/pepas.jpg",
+      "createdAt": "2023-09-13T11:20:00Z",
+      "updatedAt": "2023-09-13T11:20:00Z",
+      "tiempo_coccion": "15 minutos",
+      "nivel_dificultad": "Fácil"
+    },
+    {
       "id": "a168234e-ff4b-4ea7-8f2e-7d0c5df45b5e",
       "nombre": "Torta de Dulce de Leche",
       "descripcion_tipo": "La torta de tres capas más sabrosa del mundo, combina una base de vainilla, dulce de leche y choconut.",
@@ -14,7 +70,7 @@
         { "nombre": "polvo de hornear", "cantidad": "1 cucharadita" }
       ],
       "instrucciones": "Mezcla los ingredientes secos, luego añade los huevos, la leche y la esencia de vainilla. Hornea la mezcla y cuando esté lista, rellena y cubre con dulce de leche.",
-      "imagen": "https://i.postimg.cc/QNfYRh0f/imagen-no-disponible.png",
+      "imagen": "https://i.postimg.cc/kgdsch3p/Torta-De-Dulce-De-Leche2.jpg",
       "createdAt": "2023-09-13T10:00:00Z",
       "updatedAt": "2023-09-13T10:00:00Z",
       "tiempo_coccion": "1 hora",
@@ -34,7 +90,7 @@
         { "nombre": "dulce de leche", "cantidad": "al gusto para rellenar" }
       ],
       "instrucciones": "Mezcla los ingredientes secos, luego añade el huevo, la leche y la mantequilla. Cocina cucharadas de la mezcla en un sartén caliente y rellena con dulce de leche.",
-      "imagen": "https://i.postimg.cc/QNfYRh0f/imagen-no-disponible.png",
+      "imagen": "https://i.postimg.cc/76bbrm41/Pancakes-Con-Dulce-De-Leche2.jpg",
       "createdAt": "2023-09-13T10:05:00Z",
       "updatedAt": "2023-09-13T10:05:00Z",
       "tiempo_coccion": "20 minutos",
@@ -52,7 +108,7 @@
         { "nombre": "azúcar", "cantidad": "1 taza para el caramelo" }
       ],
       "instrucciones": "Prepara un caramelo con el azúcar y forra el molde. Licua los huevos, la leche condensada, la leche evaporada y el dulce de leche. Vierte en el molde y hornea al baño maría. Refrigera antes de servir.",
-      "imagen": "https://i.postimg.cc/QNfYRh0f/imagen-no-disponible.png",
+      "imagen": "https://i.postimg.cc/kG02c8kQ/Flan-De-Dulce-De-Leche.jpg",
       "createdAt": "2023-09-13T10:10:00Z",
       "updatedAt": "2023-09-13T10:10:00Z",
       "tiempo_coccion": "1 hora y 30 minutos",
@@ -74,7 +130,7 @@
         { "nombre": "cacao en polvo", "cantidad": "para decorar" }
       ],
       "instrucciones": "Mezcla el queso mascarpone con los huevos y el azúcar. Sumerge los bizcochos en café y dulce de leche y alterna capas en un recipiente. Refrigera y decora con cacao en polvo antes de servir.",
-      "imagen": "https://i.postimg.cc/QNfYRh0f/imagen-no-disponible.png",
+      "imagen": "https://i.postimg.cc/G3HXhyxq/Tiramisu-De-Dulce-De-Leche2.jpg",
       "createdAt": "2023-09-13T10:15:00Z",
       "updatedAt": "2023-09-13T10:15:00Z",
       "tiempo_coccion": "20 minutos",
@@ -112,7 +168,7 @@
         { "nombre": "yemas de huevo", "cantidad": "4" }
       ],
       "instrucciones": "Mezcla la leche, la nata y el azúcar en una cacerola y calienta hasta que el azúcar se disuelva. Agrega el dulce de leche y las yemas y cocina a fuego bajo hasta que espese. Enfría y lleva a la máquina de helado.",
-      "imagen": "https://i.postimg.cc/QNfYRh0f/imagen-no-disponible.png",
+      "imagen": "https://i.postimg.cc/3rV0Y5dk/Helado-De-Dulce-De-Leche.jpg",
       "createdAt": "2023-09-13T10:25:00Z",
       "updatedAt": "2023-09-13T10:25:00Z",
       "tiempo_coccion": "30 minutos",
@@ -188,7 +244,7 @@
         { "nombre": "dulce de leche", "cantidad": "para el centro" }
       ],
       "instrucciones": "Mezcla los ingredientes secos, luego agrega el huevo, la leche y la mantequilla. Rellena los moldes con la mitad de la mezcla, añade una cucharadita de dulce de leche y cubre con más mezcla. Hornea hasta que estén listos.",
-      "imagen": "https://i.postimg.cc/QNfYRh0f/imagen-no-disponible.png",
+      "imagen": "https://i.postimg.cc/2SfqLQdm/Muffin-De-Chocolate.jpg",
       "createdAt": "2023-09-13T10:45:00Z",
       "updatedAt": "2023-09-13T10:45:00Z",
       "tiempo_coccion": "25 minutos",
@@ -204,65 +260,9 @@
         { "nombre": "dulce de leche", "cantidad": "al gusto para el relleno" }
       ],
       "instrucciones": "Machaca las bananas y mezcla con la harina de avena. Forma pequeñas galletas y haz un hueco en el centro. Rellena con dulce de leche y hornea hasta que estén doradas.",
-      "imagen": "https://i.postimg.cc/QNfYRh0f/imagen-no-disponible.png",
+      "imagen": "https://i.postimg.cc/3wtWqzsJ/Galleta-De-Avena.jpg",
       "createdAt": "2023-09-13T10:50:00Z",
       "updatedAt": "2023-09-13T10:50:00Z",
-      "tiempo_coccion": "15 minutos",
-      "nivel_dificultad": "Fácil"
-    },
-    {
-      "id": "a8f4e76b-8d49-4a8f-9a63-8d3fd1d8a9ab",
-      "nombre": "Tarta de Choconut con Dulce de Leche",
-      "descripcion_tipo": "Una deliciosa tarta de Choconut con un relleno irresistible de dulce de leche.",
-      "ingredientes": [
-        { "nombre": "masa para tarta", "cantidad": "1 disco" },
-        { "nombre": "choconut", "cantidad": "1 taza" },
-        { "nombre": "dulce de leche", "cantidad": "1/2 taza" },
-        { "nombre": "huevos", "cantidad": "3" },
-        { "nombre": "azúcar", "cantidad": "1/2 taza" },
-        { "nombre": "leche", "cantidad": "1/2 taza" }
-      ],
-      "instrucciones": "Forra un molde con la masa para tarta. Espolvorea el Choconut sobre la masa. En un tazón, mezcla el dulce de leche, huevos, azúcar y leche. Vierte esta mezcla sobre el Choconut y hornea hasta que esté dorada.",
-      "imagen": "https://i.postimg.cc/5NjKJTrb/choconut.jpg",
-      "createdAt": "2023-09-13T11:00:00Z",
-      "updatedAt": "2023-09-13T11:00:00Z",
-      "tiempo_coccion": "45 minutos",
-      "nivel_dificultad": "Intermedio"
-    },
-    {
-      "id": "b7a9068d-f46e-42c5-99e3-56c31ecf5f61",
-      "nombre": "Conitos de Chocolate Rellenos de Dulce de Leche",
-      "descripcion_tipo": "Deliciosos conitos de chocolate rellenos de dulce de leche, una verdadera delicia para los amantes del chocolate.",
-      "ingredientes": [
-        { "nombre": "masa de hojaldre", "cantidad": "1 lámina" },
-        { "nombre": "chocolate negro", "cantidad": "100g" },
-        { "nombre": "dulce de leche", "cantidad": "1/2 taza" },
-        { "nombre": "huevo (para pincelar)", "cantidad": "1" }
-      ],
-      "instrucciones": "Extiende la masa de hojaldre y córtala en triángulos. Derrite el chocolate y pincela los triángulos. Enrolla cada triángulo formando un conito y rellena con dulce de leche. Coloca en una bandeja y pincela con huevo. Hornea hasta que estén dorados.",
-      "imagen": "https://i.postimg.cc/X7hHYxMF/conitos.jpg",
-      "createdAt": "2023-09-13T11:10:00Z",
-      "updatedAt": "2023-09-13T11:10:00Z",
-      "tiempo_coccion": "20 minutos",
-      "nivel_dificultad": "Intermedio"
-    },
-    {
-      "id": "e4f3bcf8-9954-4b32-9ed6-7ee099a4aadd",
-      "nombre": "Pepas Rellenas de Dulce de Leche",
-      "descripcion_tipo": "Deliciosas galletitas argentinas rellenas de suave dulce de leche.",
-      "ingredientes": [
-        { "nombre": "manteca", "cantidad": "150g" },
-        { "nombre": "azúcar", "cantidad": "1 taza" },
-        { "nombre": "huevo", "cantidad": "1" },
-        { "nombre": "esencia de vainilla", "cantidad": "1 cucharadita" },
-        { "nombre": "harina de trigo", "cantidad": "3 tazas" },
-        { "nombre": "polvo de hornear", "cantidad": "1 cucharadita" },
-        { "nombre": "dulce de leche", "cantidad": "250g" }
-      ],
-      "instrucciones": "Mezcla la manteca pomada con el azúcar hasta obtener una crema. Agrega el huevo y la esencia de vainilla. Incorpora la harina tamizada con el polvo de hornear. Forma bolitas y haz un hueco en el centro. Rellena con dulce de leche y hornea hasta que estén doradas.",
-      "imagen": "https://i.postimg.cc/HL16Qxkk/pepas.jpg",
-      "createdAt": "2023-09-13T11:20:00Z",
-      "updatedAt": "2023-09-13T11:20:00Z",
       "tiempo_coccion": "15 minutos",
       "nivel_dificultad": "Fácil"
     }
