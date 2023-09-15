@@ -1,6 +1,7 @@
 const express = require("express");
 const cors = require('cors'); // Importo el middleware de CORS
 const v1RecipieRouter = require('./src/v1/routes/recipieRoutes');
+const path = require('path');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -8,17 +9,20 @@ const PORT = process.env.PORT || 3000;
 // Aplico el middleware de CORS antes de definir tus rutas
 app.use(cors());
 
+// Servir archivos estaticos desde el directorio public
+app.use(express.static("public"));
+
 // Defino las rutas
 app.use("/api/v1/recipies", v1RecipieRouter);
 
+// Enviando el archivo HTML de la página principal
 app.get("/", (req, res) => {
-  res.send(`<h1>sazonAPI</h1><br><h2>by HyM Soft</h2>`);
+  res.sendFile(path.join(__dirname, 'public', 'index.html'));
 });
 
-// Este middleware captura las solicitudes que llegan a este punto 
-// si ninguna ruta anterior coincide
+// Middleware para manejar errores 404
 app.use((req, res, next) => {
-  res.redirect('/');
+  res.status(404).sendFile(path.join(__dirname, 'public', 'error404.html'));
 });
 
 app.listen(PORT, () => {
